@@ -58,7 +58,7 @@ public class BFSImplementation {
 			}
 			return true;
 		} catch(Exception e) {
-			System.out.println("Failed to execute : isPlacedLizardSafe :- "+e.getMessage());
+			System.out.println("Failed to execute : isPlacedQueenSafe :- "+e.getMessage());
 			System.exit(1);
 			return false;
 		}
@@ -151,7 +151,7 @@ public class BFSImplementation {
 				board[(index[i][0])][(index[i][1])] = 0;
 			
 		} catch(Exception e) {
-			System.out.println("Failed to execute : placeNextLizard :- "+e.getMessage());
+			System.out.println("Failed to execute : placeNextQueen :- "+e.getMessage());
 			System.exit(1);
 		}
 	}
